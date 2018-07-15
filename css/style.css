@@ -1,0 +1,188 @@
+html, body{
+	height: 100%;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+.nombre{
+	font-size: 50px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.presentacion{
+	font-size: 25px;
+	margin-top: 0;
+	margin-bottom: 55px;
+}
+.titulo-a{
+	font-size: 30px;
+	border-bottom: 1px solid #4ad391;
+}
+.portada{
+	background-image: url('../img/bg/AdobeStock_167198788.jpg');
+	background-size: cover;
+	padding: 20px;
+	color: white;
+	height: 350px;
+}
+.redes{
+	height: 497.9px;
+	margin-bottom: 15px;
+}
+.titulo-a{
+	margin-top: 20px;
+}
+.menu{
+	font-size: 1.5em;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin-top: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+.avatar{
+	display: inline-block;
+}
+.avatar img{
+	border-radius: 50%;
+	color: black;
+
+}
+.content{
+	width: 930px;
+	margin: auto;
+	height: 55%;
+	flex:1 0 auto;
+}
+.header{
+	position: relative;
+}
+.bp{
+	height: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+.empresa{
+	margin: 15px;
+	border:1px solid green;
+	border-radius: 5px;
+}
+.fecha {
+	display: inline-block;
+}
+.fecha li{
+	display: inline-block;
+}
+.fecha ul{
+	padding: 0;
+	margin-top: 0;
+}
+.footer{
+	background: #070D25;
+	padding-top: 5px;
+	padding-bottom: 10px;i
+	font-size: 15px;
+	flex-shrink: 0;
+}
+.contacto{
+	display: flex;
+}
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+.footer .content{
+	display: flex;
+	justify-content: space-between;
+}
+.formulario{
+	display: flex;
+	color: white;
+	width: 485px;
+}
+.button{
+	background-color: #333;
+	color: #bbb;
+	padding: 5px 15px;
+	border-radius: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.coments{
+	margin: 0;
+}
+.coluno, .coldos{
+	display: flex;
+	flex-direction: column;
+}
+.coluno{
+	margin-right: 10px;
+	width: 200px;
+}
+
+.sexo, .asunto{
+	width: 200px;
+}
+table{
+	width: 100%;
+	border: 1px solid #c5d8dd;
+	padding: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+}
+table th{
+	text-align: left;
+}
+table ol{
+	margin-top: 8px;
+	width: 700px;
+	list-style-type: none;
+	padding-left: 20px;
+}
+table ul{
+	list-style-type: disc;
+}
+.logoBP{
+	padding: 0 0 70px 35px;
+}
+.logoCFE{
+	padding: 0 0 70px 15px;
+}
+.logoTW, .logoFB{
+	
+	height: 50px;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+.periodo{
+	width: 700px;
+}
+.ciudad{
+	text-align: center;
+}
