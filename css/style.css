@@ -51,6 +51,9 @@ body{
 	color: white;
 	text-decoration: none;
 }
+nav a:hover{
+	color: #b4b8c5;
+}
 .avatar{
 	display: inline-block;
 }
